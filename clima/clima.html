@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card de Clima</title>
+    <link rel="stylesheet" href="styles_clima.css">
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <div class="cloud front">
+                <span class="left-front"></span>
+                <span class="right-front"></span>
+            </div>
+            <span class="sun sunshine"></span>
+            <span class="sun"></span>
+            <div class="cloud back">
+                <span class="left-back"></span>
+                <span class="right-back"></span>
+            </div>
+        </div>
+
+        <div class="card-header" id="location"> <!-- Añadido ID -->
+            <span>Ciudad, País</span>
+            <span>Fecha</span>
+        </div>
+
+        <span class="temp" id="temperature">XX°</span> <!-- Añadido ID -->
+
+        <div class="temp-scale">
+            <span>Celsius</span>
+        </div>
+    </div>
+
+    <script src="script_clima.js"></script>
+</body>
+</html>
